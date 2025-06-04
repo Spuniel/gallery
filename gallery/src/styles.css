@@ -1,1 +1,58 @@
-/* You can add global styles to this file, and also import other style files */
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: 80vh;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.middleImg{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+}
+
+.leftImg{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+.rightImg{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+img{
+    user-select: none;
+}
+
+button{
+    padding: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+}
